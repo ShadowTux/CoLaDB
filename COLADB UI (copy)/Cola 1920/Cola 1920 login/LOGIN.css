@@ -1,0 +1,279 @@
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920___1;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1920___1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920___1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920___1;
+	--web-enable-deep-linking: true;
+}
+#Component_10___1 {
+	position: absolute;
+	width: 1920.5px;
+	height: 1080px;
+	left: -0.5px;
+	top: 0px;
+	overflow: visible;
+}
+.Tausta {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+.Line_17 {
+	overflow: visible;
+	position: absolute;
+	width: 1920.942px;
+	height: 637.848px;
+	left: 0px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_14 {
+	overflow: visible;
+	position: absolute;
+	width: 1920.581px;
+	height: 381.943px;
+	left: 0.5px;
+	top: 540.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_15 {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 3px;
+	left: 0.5px;
+	top: 540.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_16 {
+	overflow: visible;
+	position: absolute;
+	width: 442.651px;
+	height: 832.404px;
+	left: 1480px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Pane {
+	filter: blur(19.005px);
+}
+.Pane {
+	filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
+	width: 696px;
+	height: 1046px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,612.5,17) rotate(90deg);
+	transform-origin: center;
+}
+#CoLaDBLogo2 {
+	position: absolute;
+	width: 343px;
+	height: 148px;
+	left: 789.5px;
+	top: 22px;
+	overflow: visible;
+}
+#Password__sy_tt__ {
+	position: absolute;
+	width: 530px;
+	height: 60px;
+	left: 695px;
+	top: 518px;
+	overflow: visible;
+}
+.Field {
+	position: absolute;
+	overflow: visible;
+	width: 530px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#_ {
+	opacity: 0.5;
+	position: absolute;
+	left: 32px;
+	top: 11px;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(142,142,142,1);
+}
+#Text_Mask {
+	position: absolute;
+	width: 3px;
+	height: 39px;
+	left: 32px;
+	top: 11px;
+	overflow: visible;
+}
+#Username__sy_tt__ {
+	position: absolute;
+	width: 530px;
+	height: 60px;
+	left: 695px;
+	top: 398px;
+	overflow: visible;
+}
+.Field_v {
+	position: absolute;
+	overflow: visible;
+	width: 530px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#__w {
+	opacity: 0.5;
+	position: absolute;
+	left: 32px;
+	top: 11px;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(142,142,142,1);
+}
+#Text_Mask_x {
+	position: absolute;
+	width: 3px;
+	height: 39px;
+	left: 32px;
+	top: 11px;
+	overflow: visible;
+}
+#Submit___Check {
+	position: absolute;
+	width: 134px;
+	height: 80px;
+	left: 1091px;
+	top: 634px;
+	overflow: visible;
+}
+.Rectangle_1525 {
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+#Text {
+	position: absolute;
+	width: 103px;
+	height: 32px;
+	left: 16px;
+	top: 22.326px;
+	overflow: visible;
+}
+.Check {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 3px;
+	left: 67.883px;
+	top: 41.308px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Remember_me {
+	position: absolute;
+	width: 374px;
+	height: 80px;
+	left: 693px;
+	top: 634px;
+	overflow: visible;
+}
+#Remember_me_check {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 294px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_38 {
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+.Check_ {
+	overflow: visible;
+	position: absolute;
+	width: 34.746px;
+	height: 43.603px;
+	left: 37.981px;
+	top: 25.531px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Check_ba {
+	overflow: visible;
+	position: absolute;
+	width: 28.741px;
+	height: 22.894px;
+	left: 20.336px;
+	top: 46.024px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Remember_me_ {
+	position: absolute;
+	left: 0px;
+	top: 28px;
+	overflow: visible;
+	width: 171px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(106,108,113,1);
+}
+#LOGIN {
+	position: absolute;
+	left: 885px;
+	top: 267px;
+	overflow: visible;
+	width: 152px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(106,108,113,1);
+}

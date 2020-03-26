@@ -1,0 +1,4 @@
+api - juuressa 
+-venv/scripts/activate
+-pip install -r requirements.txt
+-flask run, käynnistää toimivan python backendin

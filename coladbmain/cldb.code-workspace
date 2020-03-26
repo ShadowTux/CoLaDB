@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "FlaskReactTemplate.code-workspace": true,
+      "__pycache__": true,
+      "templates\\hello/__pycache__": true,
+      "templates/__pycache__": true,
+      "templates\\login/__pycache__": true
+    },
+    "explorerExclude.backup": null,
+    "git.ignoreLimitWarning": true
+  }
+}

@@ -1,0 +1,301 @@
+.mediaViewInfo {
+	--web-view-name: iPhone XR/XS Max/11 – 1;
+	--web-view-id: iPhone_XR_XS_Max_11___1;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: iPhone_XR_XS_Max_11___1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#iPhone_XR_XS_Max_11___1 {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: iPhone XR/XS Max/11 – 1;
+	--web-view-id: iPhone_XR_XS_Max_11___1;
+	--web-enable-deep-linking: true;
+}
+#Left_Pane {
+	position: absolute;
+	width: 426px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1528 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+}
+#Pane {
+	filter: blur(18.184px);
+}
+.Pane {
+	filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 360px;
+	height: 805px;
+	left: 36px;
+	top: 80px;
+}
+#Submit___Check {
+	position: absolute;
+	width: 134px;
+	height: 80px;
+	left: 140px;
+	top: 755px;
+	overflow: visible;
+}
+.Rectangle_1525 {
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+#Text {
+	position: absolute;
+	width: 103px;
+	height: 32px;
+	left: 16px;
+	top: 22.326px;
+	overflow: visible;
+}
+.Check {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 3px;
+	left: 67.883px;
+	top: 41.308px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Username__sy_tt__ {
+	position: absolute;
+	width: 324px;
+	height: 60px;
+	left: 45px;
+	top: 259px;
+	overflow: visible;
+}
+.Field {
+	position: absolute;
+	overflow: visible;
+	width: 324px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#_ {
+	opacity: 0.5;
+	position: absolute;
+	left: 381px;
+	top: 11.278px;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(142,142,142,1);
+}
+#Text_Mask_s {
+	position: absolute;
+	width: 349px;
+	height: 39px;
+	left: 32px;
+	top: 11.278px;
+	overflow: visible;
+}
+#Username__sy_tt___v {
+	position: absolute;
+	width: 324px;
+	height: 60px;
+	left: 45px;
+	top: 463px;
+	overflow: visible;
+}
+.Field_w {
+	position: absolute;
+	overflow: visible;
+	width: 324px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#__x {
+	opacity: 0.5;
+	position: absolute;
+	left: 381px;
+	top: 11.278px;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(142,142,142,1);
+}
+#Text_Mask_y {
+	position: absolute;
+	width: 349px;
+	height: 39px;
+	left: 32px;
+	top: 11.278px;
+	overflow: visible;
+}
+#Password__sy_tt__ {
+	position: absolute;
+	width: 381px;
+	height: 60px;
+	left: 45px;
+	top: 667px;
+	overflow: visible;
+}
+.Field_ {
+	position: absolute;
+	overflow: visible;
+	width: 324px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#Text_Mask_ {
+	position: absolute;
+	width: 349px;
+	height: 39px;
+	left: 32px;
+	top: 11.278px;
+	overflow: visible;
+}
+#Username__sy_tt___ {
+	position: absolute;
+	width: 324px;
+	height: 60px;
+	left: 45px;
+	top: 361px;
+	overflow: visible;
+}
+.Field_ba {
+	position: absolute;
+	overflow: visible;
+	width: 324px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#__ {
+	opacity: 0.5;
+	position: absolute;
+	left: 381px;
+	top: 11.278px;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(142,142,142,1);
+}
+#Group_1 {
+	position: absolute;
+	width: 79px;
+	height: 39px;
+	left: 35px;
+	top: 11.278px;
+	overflow: visible;
+}
+#email {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(142,142,142,1);
+}
+#Password__sy_tt___bb {
+	position: absolute;
+	width: 324px;
+	height: 60px;
+	left: 45px;
+	top: 565px;
+	overflow: visible;
+}
+.Field_bc {
+	position: absolute;
+	overflow: visible;
+	width: 324px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#__bd {
+	opacity: 0.5;
+	position: absolute;
+	left: 381px;
+	top: 11.278px;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(142,142,142,1);
+}
+#Text_Mask_be {
+	position: absolute;
+	width: 349px;
+	height: 39px;
+	left: 32px;
+	top: 11.278px;
+	overflow: visible;
+}
+#CREATE_A_NEW_ACCOUNT {
+	position: absolute;
+	left: 79px;
+	top: 208px;
+	overflow: visible;
+	width: 257px;
+	height: 36px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#CoLaDBLogo2 {
+	position: absolute;
+	width: 202px;
+	height: 87px;
+	left: 106px;
+	top: 100px;
+	overflow: visible;
+}

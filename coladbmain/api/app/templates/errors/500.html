@@ -1,0 +1,10 @@
+<! DOCTYPE html>
+
+{% extends "base.html" %}
+
+{% block app_content %}
+  <h1>An unexpected error has occurred.</h1>
+  <p>Oopsie woopsie, we made a fucky wucky.</p>
+  <p>Our hamster are working to fix this ASAP</p>
+  <p><a href="{{ url_for('index') }}">Back to Index</a></p>
+{% endblock %}
