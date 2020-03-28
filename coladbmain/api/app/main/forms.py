@@ -6,6 +6,17 @@ from wtforms import StringField, SubmitField, TextAreaField
 from wtforms.validators import ValidationError, DataRequired, Length
 from app.models import User
 
+# Search Form
+class SearchForm(FlaskForm):
+  q = StringField('Search', validators=[DataRequired()])
+
+  def __init__(self, *args, **kwargs):
+    if 'formdata' not in kwargs:
+      kwargs['formdata'] = request.args
+    if 'csrf_enabled' not in kwargs:
+      kwargs['csrf_enabled'] = False
+    super(SearchForm, self).__init__(*args, **kwargs)
+
 # Profile editing form
 class EditProfileForm(FlaskForm):
   username = StringField('Username', validators=[DataRequired()])
