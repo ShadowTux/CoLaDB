@@ -1,2 +1,44 @@
 2020-03-23 16:38:43,845 INFO: CoLaDB startup [in M:\Documents\CoLaDB\coladb0.6\api\app\__init__.py:49]
 2020-03-23 16:41:17,830 INFO: CoLaDB startup [in M:\Documents\CoLaDB\coladb0.6\api\app\__init__.py:49]
+2020-04-01 15:44:02,935 INFO: CoLaDB startup [in M:\Documents\CoLaDB\coladb0.7\CoLaDB\coladbmain\api\app\__init__.py:73]
+2020-04-01 15:44:15,700 ERROR: Exception on / [POST] [in c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "M:\Documents\CoLaDB\coladb0.7\CoLaDB\coladbmain\api\app\main\routes.py", line 28, in index
+    db.session.commit()
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\sqlalchemy\orm\scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 1036, in commit
+    self.transaction.commit()
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\sqlalchemy\orm\session.py", line 510, in commit
+    self.session.dispatch.after_commit(self.session)
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\sqlalchemy\event\attr.py", line 261, in __call__
+    fn(*args, **kw)
+  File "M:\Documents\CoLaDB\coladb0.7\CoLaDB\coladbmain\api\app\models.py", line 52, in after_commit
+    add_to_index(obj.__tablename__, obj)
+  File "M:\Documents\CoLaDB\coladb0.7\CoLaDB\coladbmain\api\app\search.py", line 12, in add_to_index
+    current_app.elasticsearch.index(index=index, id=model.id, body=payload)
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\elasticsearch\client\utils.py", line 92, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\elasticsearch\client\__init__.py", line 407, in index
+    body=body,
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\elasticsearch\transport.py", line 362, in perform_request
+    timeout=timeout,
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 248, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "c:\users\jesse\appdata\local\programs\python\python37-32\lib\site-packages\elasticsearch\connection\base.py", line 244, in _raise_error
+    status_code, error_message, additional_info
+elasticsearch.exceptions.AuthorizationException: AuthorizationException(403, 'cluster_block_exception', 'index [post] blocked by: [FORBIDDEN/12/index read-only / allow delete (api)];')
