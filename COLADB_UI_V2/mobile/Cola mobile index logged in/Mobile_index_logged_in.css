@@ -1,0 +1,625 @@
+.mediaViewInfo {
+	--web-view-name: iPhone XR/XS Max/11 – 1;
+	--web-view-id: iPhone_XR_XS_Max_11___1;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: iPhone_XR_XS_Max_11___1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#iPhone_XR_XS_Max_11___1 {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: iPhone XR/XS Max/11 – 1;
+	--web-view-id: iPhone_XR_XS_Max_11___1;
+	--web-enable-deep-linking: true;
+}
+#Left_Pane {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1528 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+}
+#Pane {
+	filter: blur(18.184px);
+}
+.Pane {
+	filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 360px;
+	height: 617px;
+	left: 36px;
+	top: 277px;
+}
+#Browse {
+	position: absolute;
+	width: 121.947px;
+	height: 147.374px;
+	left: 50px;
+	top: 406px;
+	overflow: visible;
+}
+#BROWSE {
+	opacity: 0.5;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(100,100,100,1);
+	letter-spacing: 0.4px;
+}
+#Home {
+	position: absolute;
+	width: 109.391px;
+	height: 28px;
+	left: 1.556px;
+	top: 55.231px;
+	overflow: visible;
+}
+#Home_m {
+	position: absolute;
+	left: 46.391px;
+	top: 0px;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(96,96,96,1);
+	letter-spacing: 0.4px;
+}
+#home_water {
+	position: absolute;
+	width: 21.835px;
+	height: 21.834px;
+	left: 0px;
+	top: 1.549px;
+	overflow: visible;
+}
+.Rectangle_18 {
+	position: absolute;
+	overflow: visible;
+	width: 21.834px;
+	height: 21.834px;
+	left: 0px;
+	top: 0px;
+}
+#Group_13 {
+	position: absolute;
+	width: 21.81px;
+	height: 21.834px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Path_16 {
+	overflow: visible;
+	position: absolute;
+	width: 21.81px;
+	height: 21.834px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Songs {
+	position: absolute;
+	width: 74px;
+	height: 28px;
+	left: 47.947px;
+	top: 119.374px;
+	overflow: visible;
+}
+#Python {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(96,96,96,1);
+	letter-spacing: 0.4px;
+}
+.Active_Link {
+	display: none;
+	position: absolute;
+	overflow: visible;
+	width: 9px;
+	height: 9px;
+	left: -34px;
+	top: 62px;
+}
+#Python_logo_coladb {
+	position: absolute;
+	width: 23px;
+	height: 23px;
+	left: 2px;
+	top: 122px;
+	overflow: visible;
+}
+#Latest_news {
+	position: absolute;
+	width: 216px;
+	height: 74.016px;
+	left: 52px;
+	top: 594.984px;
+	overflow: visible;
+}
+#Latest_news_w {
+	opacity: 0.5;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(100,100,100,1);
+	letter-spacing: 0.4px;
+}
+#Welcome_to_CoLaDB {
+	position: absolute;
+	left: 0px;
+	top: 46.016px;
+	overflow: visible;
+	width: 217px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(96,96,96,1);
+	letter-spacing: 0.4px;
+}
+#About {
+	position: absolute;
+	width: 105px;
+	height: 74.089px;
+	left: 52px;
+	top: 687.911px;
+	overflow: visible;
+}
+#About_us {
+	opacity: 0.5;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(100,100,100,1);
+	letter-spacing: 0.4px;
+}
+#F_A_Q {
+	position: absolute;
+	left: 0px;
+	top: 46.089px;
+	overflow: visible;
+	width: 54px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(96,96,96,1);
+	letter-spacing: 0.4px;
+}
+#Profile {
+	position: absolute;
+	width: 181.08px;
+	height: 74px;
+	left: 52px;
+	top: 316px;
+	overflow: visible;
+}
+#User {
+	position: absolute;
+	left: 85px;
+	top: 0px;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(42,47,51,1);
+	letter-spacing: 0.4px;
+}
+.Down {
+	overflow: visible;
+	position: absolute;
+	width: 11.909px;
+	height: 7.369px;
+	left: 172px;
+	top: 13.73px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Premium {
+	opacity: 0.5;
+	position: absolute;
+	width: 56px;
+	height: 17px;
+	left: 86px;
+	top: 29px;
+	overflow: visible;
+}
+#Colada {
+	position: absolute;
+	left: 4px;
+	top: 0px;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	color: rgba(255,69,0,1);
+	letter-spacing: 0.4px;
+}
+.Rectangle_1520 {
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	height: 17px;
+	left: 0px;
+	top: 0px;
+}
+#Profile_Dropdown {
+	position: absolute;
+	width: 167px;
+	height: 220px;
+	left: 52px;
+	top: 27px;
+	display: none;
+	overflow: visible;
+}
+.Rectangle_1521 {
+	filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.098));
+	position: absolute;
+	overflow: visible;
+	width: 215px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+}
+#Premium_ {
+	position: absolute;
+	width: 65px;
+	height: 17px;
+	left: 16px;
+	top: 16px;
+	overflow: visible;
+}
+#PREMIUM {
+	position: absolute;
+	left: 4px;
+	top: 0px;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	color: rgba(201,69,111,1);
+	letter-spacing: 0.4px;
+}
+.Rectangle_1520_bb {
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	height: 17px;
+	left: 0px;
+	top: 0px;
+}
+#Through_11_2 {
+	position: absolute;
+	left: 91px;
+	top: 19px;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9px;
+	color: rgba(199,199,199,1);
+	letter-spacing: 0.4px;
+}
+#logout {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 133px;
+	top: 186px;
+	overflow: visible;
+}
+.Rectangle_1524 {
+	position: absolute;
+	overflow: visible;
+	width: 18px;
+	height: 18px;
+	left: 0px;
+	top: 0px;
+}
+#Group_34 {
+	position: absolute;
+	width: 16.873px;
+	height: 15.752px;
+	left: 0.563px;
+	top: 1.128px;
+	overflow: visible;
+}
+.Line_13 {
+	overflow: visible;
+	position: absolute;
+	width: 13.313px;
+	height: 1.5px;
+	left: 0px;
+	top: 7.875px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_45 {
+	overflow: visible;
+	position: absolute;
+	width: 4.623px;
+	height: 7.746px;
+	left: 9px;
+	top: 5.063px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_46 {
+	overflow: visible;
+	position: absolute;
+	width: 16.708px;
+	height: 17.273px;
+	left: 1.917px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Log_out {
+	position: absolute;
+	left: 78px;
+	top: 187px;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(199,199,199,1);
+	letter-spacing: 0.4px;
+}
+#Private {
+	position: absolute;
+	left: 17px;
+	top: 53px;
+	overflow: visible;
+	width: 39px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(41,46,50,1);
+	letter-spacing: 0.4px;
+}
+#Explicit_Filter {
+	position: absolute;
+	left: 17px;
+	top: 86px;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(41,46,50,1);
+	letter-spacing: 0.4px;
+}
+#Friend_Activity {
+	position: absolute;
+	left: 17px;
+	top: 119px;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(41,46,50,1);
+	letter-spacing: 0.4px;
+}
+#Account_Settings {
+	position: absolute;
+	left: 17px;
+	top: 152px;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: rgba(41,46,50,1);
+	letter-spacing: 0.4px;
+}
+#Toggle {
+	position: absolute;
+	width: 33px;
+	height: 16px;
+	left: 118px;
+	top: 52px;
+	overflow: visible;
+}
+.Rectangle_1525 {
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+}
+.Ellipse_15 {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 2px;
+	top: 2px;
+}
+#Toggle_br {
+	position: absolute;
+	width: 33px;
+	height: 16px;
+	left: 118px;
+	top: 85px;
+	overflow: visible;
+}
+.Rectangle_1525_bs {
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+}
+.Ellipse_15_bt {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 19px;
+	top: 2px;
+}
+#Toggle_bu {
+	position: absolute;
+	width: 33px;
+	height: 16px;
+	left: 118px;
+	top: 118px;
+	overflow: visible;
+}
+.Rectangle_1525_bv {
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+}
+.Ellipse_15_bw {
+	position: absolute;
+	overflow: visible;
+	width: 12px;
+	height: 12px;
+	left: 19px;
+	top: 2px;
+}
+#CoLaDBLogo1 {
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	left: 0px;
+	top: 2px;
+	overflow: visible;
+}
+#Contact_us {
+	position: absolute;
+	left: 52px;
+	top: 781px;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(96,96,96,1);
+	letter-spacing: 0.4px;
+}
+#Animated_Search {
+	position: absolute;
+	width: 52.484px;
+	height: 61.571px;
+	left: 36px;
+	top: 33px;
+	overflow: visible;
+}
+.Rectangle_1523 {
+	position: absolute;
+	overflow: visible;
+	width: 52.484px;
+	height: 53.34px;
+	left: 0px;
+	top: 0px;
+}
+.Line_10 {
+	overflow: visible;
+	position: absolute;
+	width: 0.021px;
+	height: 15.662px;
+	transform: translate(0px, 0px) matrix(1,0,0,1,46.976,47.7338) rotate(-40deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}

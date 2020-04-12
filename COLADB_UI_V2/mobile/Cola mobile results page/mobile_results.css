@@ -1,0 +1,133 @@
+.mediaViewInfo {
+	--web-view-name: iPhone XR/XS Max/11 – 1;
+	--web-view-id: iPhone_XR_XS_Max_11___1;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: iPhone_XR_XS_Max_11___1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#iPhone_XR_XS_Max_11___1 {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: iPhone XR/XS Max/11 – 1;
+	--web-view-id: iPhone_XR_XS_Max_11___1;
+	--web-enable-deep-linking: true;
+}
+#Left_Pane {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: -6px;
+	overflow: visible;
+}
+.Rectangle_1528 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+}
+#Pane {
+	filter: blur(18.184px);
+}
+.Pane {
+	filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 360px;
+	height: 788px;
+	left: 36px;
+	top: 97px;
+}
+#Browse {
+	position: absolute;
+	width: 109.391px;
+	height: 28px;
+	left: 268.609px;
+	top: 33.231px;
+	overflow: visible;
+}
+#Home {
+	position: absolute;
+	width: 109.391px;
+	height: 28px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Home_l {
+	position: absolute;
+	left: 46.391px;
+	top: 0px;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,69,0,1);
+	letter-spacing: 0.4px;
+}
+#home_water {
+	position: absolute;
+	width: 21.835px;
+	height: 21.834px;
+	left: 0px;
+	top: 1.549px;
+	overflow: visible;
+}
+.Rectangle_18 {
+	position: absolute;
+	overflow: visible;
+	width: 21.834px;
+	height: 21.834px;
+	left: 0px;
+	top: 0px;
+}
+#Group_13 {
+	position: absolute;
+	width: 21.81px;
+	height: 21.834px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Path_16 {
+	overflow: visible;
+	position: absolute;
+	width: 21.81px;
+	height: 21.834px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Active_Link {
+	display: none;
+	position: absolute;
+	overflow: visible;
+	width: 9px;
+	height: 9px;
+	left: -35.556px;
+	top: 6.769px;
+}
+#CoLaDBLogo1 {
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	left: 42px;
+	top: 25px;
+	overflow: visible;
+}

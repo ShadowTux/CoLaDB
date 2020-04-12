@@ -1,0 +1,249 @@
+.mediaViewInfo {
+	--web-view-name: iPhone XR/XS Max/11 – 1;
+	--web-view-id: iPhone_XR_XS_Max_11___1;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: iPhone_XR_XS_Max_11___1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#iPhone_XR_XS_Max_11___1 {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: iPhone XR/XS Max/11 – 1;
+	--web-view-id: iPhone_XR_XS_Max_11___1;
+	--web-enable-deep-linking: true;
+}
+#Left_Pane {
+	position: absolute;
+	width: 437px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1528 {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+}
+#Pane {
+	filter: blur(18.184px);
+}
+.Pane {
+	filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 360px;
+	height: 672px;
+	left: 36px;
+	top: 80px;
+}
+#Submit___Check {
+	position: absolute;
+	width: 134px;
+	height: 80px;
+	left: 140px;
+	top: 606px;
+	overflow: visible;
+}
+.Rectangle_1525 {
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+#Text {
+	position: absolute;
+	width: 103px;
+	height: 32px;
+	left: 16px;
+	top: 22.326px;
+	overflow: visible;
+}
+.Check {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 3px;
+	left: 67.883px;
+	top: 41.308px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Password__sy_tt__ {
+	position: absolute;
+	width: 320px;
+	height: 60px;
+	left: 48px;
+	top: 361px;
+	overflow: visible;
+}
+.Field {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#_ {
+	opacity: 0.5;
+	position: absolute;
+	left: 32px;
+	top: 11px;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(142,142,142,1);
+}
+#Text_Mask_s {
+	position: absolute;
+	width: 3px;
+	height: 39px;
+	left: 32px;
+	top: 11px;
+	overflow: visible;
+}
+#Password__sy_tt___v {
+	position: absolute;
+	width: 389px;
+	height: 60px;
+	left: 48px;
+	top: 266px;
+	overflow: visible;
+}
+.Field_w {
+	position: absolute;
+	overflow: visible;
+	width: 321px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+#__x {
+	opacity: 0.5;
+	position: absolute;
+	left: 381px;
+	top: 11.278px;
+	overflow: visible;
+	width: 9px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(142,142,142,1);
+}
+#Text_Mask_y {
+	position: absolute;
+	width: 349px;
+	height: 39px;
+	left: 32px;
+	top: 11.278px;
+	overflow: visible;
+}
+#LOGIN {
+	position: absolute;
+	left: 171px;
+	top: 202px;
+	overflow: visible;
+	width: 74px;
+	height: 36px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Remember_me {
+	position: absolute;
+	width: 170px;
+	height: 128px;
+	left: 122px;
+	top: 448px;
+	overflow: visible;
+}
+#Remember_me_check {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 45px;
+	top: 48px;
+	overflow: visible;
+}
+.Ellipse_38 {
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+}
+#Check_ {
+	opacity: 0;
+}
+.Check_ {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 53.166px;
+	top: 49.423px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Check_ba {
+	opacity: 0;
+}
+.Check_ba {
+	overflow: visible;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: 39.497px;
+	top: 40.453px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Remember_me_ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 171px;
+	white-space: nowrap;
+	line-height: 29px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(106,108,113,1);
+}
+#CoLaDBLogo2 {
+	position: absolute;
+	width: 202px;
+	height: 87px;
+	left: 106px;
+	top: 104px;
+	overflow: visible;
+}
