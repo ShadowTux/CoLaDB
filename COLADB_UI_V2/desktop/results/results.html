@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<title>Results</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="results.css"/>
+<script id="applicationScript" type="text/javascript" src="indexLO.js"></script>
+
+<body>
+    <div id ="search">
+      <div id="textwrapper1"> 
+        <h2>Python</h2>
+        </div>
+
+        <div id="center">
+
+          <h3>POPULAR</h3>
+          <br>
+          <h3>Pseudocode</h3>
+          <p>
+
+            Pseudo code is writing out the code in form that is like code but not quite code. So for opening a file and printing printing out its lines of text
+            <br>
+            if file exists(path_to_file) then :
+             open (path_to_file)
+             for each line in file  : print the line of the file
+            <br>
+            All you should do is create the sequence of steps needed for your problem and write it out like that. Since you mention python, just use use a more python like syntax in your pseudo code.
+            <br>
+            I suspect that you problem will be to encourage you to consider how to make functions and classes, and writing the pseudo code first will help you do this.
+            </p>
+
+            <br>
+          <h3>Help with class</h3>
+          <p>class Point():
+            """Defines a Point. Has x and y."""
+            def __init__(self, x, y):
+                self.x = x
+                self.y = y
+        
+            def dump_self(self, filename):
+                self.c = CodeGeneratorBackend()
+                self.c.begin(tab="    ")
+                self.c.write("class {0}{1}Point()\n".format(self.x,self.y))
+                self.c.indent()
+                self.c.write('"""Defines a Point. Has x and y"""\n')
+                self.c.write('def __init__(self, x={0}, y={1}):\n'.format(self.x, self.y))
+                self.c.indent()
+                self.c.write('self.x = {0}\n'.format(self.x))
+                self.c.write('self.y = {0}\n'.format(self.y))
+                self.c.dedent()
+                self.c.dedent()
+                f = open(filename,'w')
+                f.write(self.c.end())
+                f.close()
+        
+        if __name__ == "__main__":
+            p = Point(3,4)
+            p.dump_self('demo.py')</p>
+
+        </div>
+        <div id="codetextcenter">
+
+      <h3>NEWEST </h3>
+      <br>
+          <h3>What's wrong?</h3>
+          <p>bookPrice = 24.95
+            discount = .60
+            shippingPriceRest = .75
+            shippingPriceFirst = 3.00
+            totalUnits = 60
+            <br>
+            bookDiscountAmount = bookPrice * discount * totalUnits
+            shipping = shippingPriceRest * 59 + shippingPriceFirst
+            <br>
+            result = bookDiscountAmount + shipping
+            <br>
+            <br>
+            print 'The total price for 60 books including shipping and discount is: '
+            print 'Total price of the books is: ' + str(bookDiscountAmount)
+            print 'Total Shipping is: ' + str(shipping)
+            print 'The Total price is: ' + str(result)</p>
+
+            <h3>Generation error! Need help</h3>
+            <p>import sys, string
+
+              class CodeGeneratorBackend:
+              
+                  def begin(self, tab="\t"):
+                      self.code = []
+                      self.tab = tab
+                      self.level = 0
+              
+                  def end(self):
+                      return string.join(self.code, "")
+              
+                  def write(self, string):
+                      self.code.append(self.tab * self.level + string)
+              
+                  def indent(self):
+                      self.level = self.level + 1</p>
+
+        </div>
+
+        
+</body>
+
+
+</html>

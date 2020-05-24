@@ -6,41 +6,43 @@
 <script id="applicationScript" type="text/javascript" src="indexLO.js"></script>
 
 <body>
-    <div id = "LeftBar">leftbar
 
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
-            </div>
+
+
+    <div id = "LeftBar" style="display: table; overflow: hidden;" >
+        <h2>Welcome Costa!</h2>
+        <div id="textwrapper" >
+          <h2>BROWSE</h2>
+          <h3>Home</h3>
+          <h3>Python</h3>
+          <h3>Other</h3>
           </div>
+          <br>
+          <br>
+          <br>
           
-          <script>
-          /* When the user clicks on the button, 
-          toggle between hiding and showing the dropdown content */
-          function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-          }
-          
-          // Close the dropdown if the user clicks outside of it
-          window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-              var dropdowns = document.getElementsByClassName("dropdown-content");
-              var i;
-              for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                  openDropdown.classList.remove('show');
-                }
-              }
-            }
-          }
-          </script>
+          <div id="lastimage">
+          <img src="images/logo1.png" alt="">
+        </div>
 
     </div>
-    <div id ="search">searchscreen</div>
+
+
+
+
+
+    <div id ="search">
+      <div id="searchbar">
+      <form action="results.html">
+        <input type="text" placeholder="search" id="fname" name="fname" style="font-size: 130%" style="font-style:poppins;">
+        <button type="submit" value="Submit" style="font-style:poppins;" onclick="window.location.href = 'www.w3docs.com';">Submit</button>
+    </form>
+  </div>
+      <div id ="imgcontainer">
+      <img src="images/logo2.png" alt="Logo" class="responsive"> </div>
+     
+    
+    </div>
 </body>
 
 

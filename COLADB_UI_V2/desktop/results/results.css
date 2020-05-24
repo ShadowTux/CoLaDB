@@ -26,11 +26,12 @@ body {
 #search {
 
     border-radius: 25px;
-    width: 50vw;
-    height: 40vh;
+    width: 75vw;
+    height: 90vh;
     position: relative;
     margin: auto;
-    float: right;
+    float: inherit;
+    margin-left: 10vw;
     margin-top: 7vh;
     margin-right:19vw;
     min-width: 500px;
@@ -74,26 +75,6 @@ body {
 
 }
 
-input[type=text] {
-    border: 4px solid #F2F2F2;
-    border-radius: 4px;
-    padding: 12px 20px;
-    margin: 0px 0;
-    font-size: 1vw;
-    height: auto;
-    width:20vw;
-   
-
-    
-  }
-
-.login-text {
-    font-family: Poppins;
-    font-size: 3vw;;
-    color: #6A6C71;
-    text-align: center;
-    /*background-color: red;*/
-}
 
 button {
     background-color: white; /* Green */
@@ -128,73 +109,57 @@ button:hover {
   width:300px;
 }
 
-.dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown a:hover {background-color: #ddd;}
-  
-  .show {display: block;}
 
   h2 {
-text-align: center;
-vertical-align: middle;
-font-weight: bold;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-  }
-
-  h3 {
     text-align: center;
     vertical-align: middle;
+    font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 44px;
+    
       }
 
-  #textwrapper {
-padding-top: 70%;
+      h3 {
+        text-align: left;
+        vertical-align: middle;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 24px;
+        
+          }
 
-  }
 
-  #lastimage {
-    padding: 5%;
-    padding-top: 5%;
-    position: absolute;
-    height :auto;
-    width :240px;
-    /*background-color: green;*/
-    overflow: visible;
-    margin-top: 20%;
-    margin-left: 5%;
+      p {
+        
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        text-align: left;
+        
+          }
 
+#textwrapper1 {
+  padding-top: 2%;       
+}
+
+#codetextcenter {
+
+  width: 20%;
+  height: 70%;
+  padding-left: 5%;
+
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+
+}
+
+#center {
+ 
+  width: 40%;
+  height: 50%;
+  margin-left: 33%;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
   
+
+}
